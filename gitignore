@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.env
+
+# MLflow
+mlruns/
+
+# Model artifacts
+model/*.pkl
+
+# Generated data
+data/reference.csv
+data/production.csv
+
+# Monitoring outputs
+monitoring/*.html
+monitoring/drift_results.json
+
+# IDE
+.vscode/
+.idea/
